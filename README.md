@@ -33,7 +33,7 @@ setx CYBERHACK_API_KEY "your_api_key_here"
 
 Replace "your_api_key_here" with your actual API key. This command sets the environment variable permanently for your user account.
 
-Install Dependencies:
+**Install Dependencies:**
 
 Ensure you have Python 3 and pip installed. Then, install the required packages:
 

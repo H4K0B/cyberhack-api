@@ -1,4 +1,4 @@
-# cyberhack-api
+# CyberHack-api
 API for CyberHack
 A Python client for interacting with the CyberHack API, enabling users to search for domains or emails.
 
@@ -15,7 +15,8 @@ A Python client for interacting with the CyberHack API, enabling users to search
    ```bash
    git clone https://github.com/H4K0B/cyberhack-api.git
    cd cyberhack-api
-Set Up Environment Variables:
+
+ **Set Up Environment Variables:**
 
 On Linux/macOS:
 

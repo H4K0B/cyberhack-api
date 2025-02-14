@@ -13,5 +13,39 @@ A Python client for interacting with the CyberHack API, enabling users to search
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/cyberhack-api-client.git
-   cd cyberhack-api-client
+   git clone https://github.com/H4K0B/cyberhack-api.git
+   cd cyberhack-api
+Set Up Environment Variables:
+
+On Linux/macOS:
+
+Add the following line to your shell configuration file (e.g., ~/.bashrc or ~/.zshrc):
+
+bash
+Copy
+Edit
+export CYBERHACK_API_KEY="your_api_key_here"
+Replace "your_api_key_here" with your actual API key. After adding this line, reload your shell configuration by running:
+
+bash
+Copy
+Edit
+source ~/.bashrc  # or source ~/.zshrc
+On Windows:
+
+Open Command Prompt and set the environment variable using:
+
+cmd
+Copy
+Edit
+setx CYBERHACK_API_KEY "your_api_key_here"
+Replace "your_api_key_here" with your actual API key. This command sets the environment variable permanently for your user account.
+
+Install Dependencies:
+
+Ensure you have Python 3 and pip installed. Then, install the required packages:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt

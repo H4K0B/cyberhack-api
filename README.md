@@ -40,3 +40,31 @@ Ensure you have Python 3 and pip installed. Then, install the required packages:
 
 ```bash
 pip install -r requirements.txt
+## Usage
+
+Run the script with your desired search query:
+
+```bash
+python3 cyberhack_api.py "search_query"
+```
+
+Replace `"search_query"` with the domain or email you wish to search for. For example:
+
+- To search for a domain:
+  ```bash
+  python3 cyberhack_api.py "example.com"
+  ```
+
+- To search for an email:
+  ```bash
+  python3 cyberhack_api.py "user@example.com"
+  ```
+
+## Contributing
+
+Feel free to open issues and submit pull requests to improve the script!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
